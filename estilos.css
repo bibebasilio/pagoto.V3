@@ -1,0 +1,682 @@
+    
+    /* selector de etiquetas de HTML */
+
+   /* .contenido {
+        display:grid; 
+        grid-template-columns: repeat(15, 1fr);
+        grid-template-rows: repeat(8, 110px);*/
+   
+
+    .p {
+        font-size: 20px;
+        color: #cee422;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-weight: bold;          
+        text-decoration: underline;
+        text-decoration-color: #d81327;
+        text-decoration-thickness: 2px;
+        text-decoration-style: solid; 
+        background-color: #0bfe4c;
+    }
+
+    body {
+
+        font-size: 16px;
+        font-weight: normal;
+        font-family: Arial, sans-serif;
+        background-color: #93dde7;
+        color: #d4cdcd;
+        margin: 0px;
+        padding:0;
+        line-height: 1.6;
+    }
+
+
+    .cabecera {
+        
+        width: 90%;
+        max-width: 1200px;
+        padding: 20;
+        margin: 20px auto;
+        border: 10px dotted hsla(63, 93%, 47%, 0.576);
+        box-shadow: 10 10 20px rgba(28, 21, 21, 0.1);
+        background-color: #add92a;
+    }
+
+   
+
+
+      .checkbox-container1 label {
+          /*  width: 90%;*/
+            display: grid;                           
+            margin: top 0%;            
+            margin-bottom: 0%;
+            font-size:20px;
+            color: #4f0a7d;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-weight: bold;          
+          
+            text-decoration-style: solid; 
+        }
+
+        .checkbox-conteiner1 input[type="checkbox"] {
+            display: none;
+        }   
+
+        .checkbox-container1 input[type="number "] {cursor: horizontal}
+        
+          .checkbox-container1 label {cursor: horizontal-text}
+
+        .checkbox-container1 img{
+           /* width: 0.1em;  
+            height:0.1em;  
+            border : 5px solid transparent;
+            /*border-radius: 50%;*/         
+            box-shadow: 0 4px 8px rgba(99, 9, 208, 0.2);
+            transition: transform 0.2s;     
+            margin: 10px;
+            padding: 0px;
+            /* en file */
+            display: inline-flexbox;
+            justify-items: left;
+            justify-content: left;
+    
+            }
+            
+            .checkbox-container1 img:hover {
+                transform: scale(1.1);
+                border: 0.5emsolid #1b0e65;
+                box-shadow: 0 4px 8px rgba(13, 153, 69, 0.2);
+                transition: transform 0.2s;
+            }
+            .checkbox-container1 input[type="checkbox"]:checked + label img {
+                transform: scale(1.1);
+                border: 1em solid #650e44;
+                box-shadow: 0 4px 8px rgba(13, 123, 153, 0.2);
+                transition: transform 0.2s;
+            }   
+
+       
+        
+        .checkbox-container input[type="checkbox"]{
+                          display:none
+        }
+
+        .checkbox-container input[type="number "] {cursor: horizontal}
+            
+        /* RECUADRO GRANDE QUE ENVUELVE LOS BOTONES */
+
+
+        .checkbox-container {
+           /*display: grid;*/
+           width: auto; 
+           display: flex ;   
+            flex-direction: row;    
+            /*flex-direction: column;*/
+           flex-wrap: wrap;
+            justify-content: space-between ;
+            align-items: center;
+            /*align-items: center;*/
+            padding: 0px;
+            border: 5px solid #110101;
+            background-color: #fe7c0b;  
+            /* de redondo a ovalado */
+            /*max-width: 1000px;*/
+           /*  border-radius: 50px;*/
+            box-shadow: 0 4px 8px rgba(42, 15, 88, 0.2);
+            transition: transform 0.2s;
+
+            
+        }
+
+
+        .checkbox-container img {
+        width: 60px;        
+        height:60px;  
+        border : 5px solid transparent;
+        /*border-radius: 50%;*/         
+        box-shadow: 0 4px 8px rgba(208, 92, 9, 0.2);
+        transition: transform 0.2s;     
+        margin: 5px;
+        /*margin-left: 10px;*/   
+        padding: 5px;  
+        /* en file */
+        display: inline-flexbox;
+        justify-content: space-around;
+
+
+
+        }
+        
+        .checkbox-container img:hover {
+            transform: scale(1.31);
+            border: 5px solid #af1383;
+            box-shadow: 0 4px 8px rgba(13, 153, 69, 0.2);
+            transition: transform 0.2s;
+        }
+
+        .checkbox-container input[type="checkbox"]:checked + label img {
+            transform: scale(1.1);
+            border: 5px solid #2b0889;
+            box-shadow: 0 4px 8px rgba(13, 153, 69, 0.2);
+            transition: transform 0.2s;
+
+        }   
+
+        
+        .checkbox-container input[type="number"]:checked {  
+         
+            box-shadow: 0 4px 4px rgba(153, 71, 13, 0.2);
+            transform: scale(1.1);
+            transition: transform 0.2s;
+        }
+        
+        
+      
+        /* imagenes botones */       
+        .ppp {
+          
+            border: 5px solid #110101;
+            background-color: #43db91;  
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(183, 165, 215, 0.2);
+        
+        }  
+        /* numeros cantidad */
+        
+        .aa {
+            display: grid;
+            flex-direction: row;
+            flex-direction: column;        
+            flex-wrap: wrap;
+            justify-content: space-between;
+            Align-items: center;
+            margin-LEFT: 2x;
+            padding: 5px;
+            border: 5px solid #e90a0a;
+            background-color: #3ff91e;
+            /* de redondo a ovalado */
+            /*max-width: 50px;*/
+            
+            border-radius: 10px;
+            box-shadow: 0 4px 4px rgba(111, 54, 209, 0.2);
+
+            transition: transform 0.2s;
+            text-decoration-style: solid; 
+            width:35px;        
+        }
+    
+        #tituloprincipal {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            font-size: 1em  ;
+            color:#912f19;      
+            background-color: rgb(224, 238, 31);
+            text-align: center;
+        
+
+        }   
+      
+
+        
+
+
+        .agua {
+            display: flex;
+            flex-direction: row;    
+            /*flex-direction: column;*/
+            flex-wrap: wrap;
+            justify-content: space-between ;
+            align-items: center;
+            /*align-items: center;*/
+            margin-top: 0%; 
+            margin-bottom: 10px; 
+            padding: 20px;
+            border: 5px solid #2b15bb;
+            background-color: #67d1e9;  
+            /* de redondo a ovalado */
+            /*max-width: 1000px;*/
+            border-radius: 50px;
+            box-shadow: 0 4px 8px rgba(42, 15, 88, 0.2);
+            transition: transform 0.2s;
+            cursor: pointer;
+    
+          
+        }
+
+        .confruta1 {
+            display: flex;
+            flex-direction: row;    
+            /*flex-direction: column;*/
+            flex-wrap: wrap;
+            justify-content: space-between ;
+            align-items: center;
+            /*align-items: center;*/
+            margin-top: 0%; 
+            margin-bottom: 10px; 
+            padding: 20px;
+            border: 5px solid #1515bb;
+            background-color: #4ee497;  
+            /* de redondo a ovalado */
+            /*max-width: 1000px;*/
+            border-radius: 50px;
+            box-shadow: 0 4px 8px rgba(42, 15, 88, 0.2);
+            transition: transform 0.2s;
+            cursor: pointer;  
+        
+
+
+         }
+
+
+
+
+
+
+        .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background-color: #19941d;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        /*.cremosos {
+             width: 150px;
+             height: 40px;   
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+            border: 5px solid #110101;
+            background-color: #0b13fe;
+            /* de redondo a ovalado */  
+         /*   max-width: 90px;
+            border-radius: 15%;
+            box-shadow: 0 4px 8px rgba(183, 165, 215, 0.2); 
+
+        }*/
+
+
+        .ice {
+            width: 90px;
+            height: 40px;   
+            text-align: center;
+
+            margin: 2px;
+            padding: 8px;
+             display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+
+            border: 5px solid #110101;
+            background-color: #2069a8;
+            /* de redondo a ovalado */  
+            max-width: auto;
+            border-radius: 15%;
+            box-shadow: 0 4px 8px rgba(183, 165, 215, 0.2); 
+                
+        }
+
+
+        .ice-cream {
+            width: 10%;
+            height: auto;   
+            text-align: center;
+
+
+        }
+
+        /* color de fondo del box del formulario */
+        /* COLOR DE FONDO DEL BOX DEL FORMULARIO */
+        
+        #iceCreamForm {
+            max-width: auto;
+            margin: 0 auto;   
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            border: 10px solid #d11aa6;
+            background-color: #bab0b0;
+            text-align: left;
+            border-radius: 50px;
+            box-shadow: 0 4px 8px rgba(42, 15, 88, 0.2);               
+
+            }
+
+       /* color letras checkbox */
+        #iceCreamForm label {
+            display: inline-block;                     
+            margin-top: 0px;
+            font-size: 20px;
+            color: #110df1;             
+            font-weight: bold;
+            text-decoration: underline;         
+            text-decoration-color: #000000;
+            container-type: 80%;
+            width: 200px;
+            height: 25px;
+        }
+            
+        .boton1 {  
+            text-align:center ;  
+            width: 70px;
+                height: 40px;
+        }
+        
+        #iceCreamForm input[type="checkbox"] {
+            margin: 10 px;
+            width: 2022px;
+            height: 20px;   
+            border: 5px solid #0e6522;
+            border-radius: 5px;
+            background-color: #2b0bfe;
+            cursor: pointer;
+            font-size: 20px;
+            color: #f13f0d;
+            font-weight: bold;              
+            text-decoration: underline;
+            text-decoration-color: #7b5a08;
+            text-decoration-thickness: 2px;
+            text-decoration-style: solid;
+            text-align: right;
+            text-justify: inter-character;      
+
+            text-indent: 10px;
+
+            text-transform: uppercase;
+            text-shadow: 1px 1px 2px #000;
+            text-overflow: ellipsis;
+
+
+        }
+
+
+        /*  caja numeros*/    
+
+        #iceCreamForm input[type="NUMBER"] {
+            display: flex-start;
+            flex-direction: column;
+            
+            justify-content: space-between; 
+            align-items: right;
+        
+            /*align-items: center;*/
+            
+           
+            margin-left: 190x;
+            width: 70px;
+            height: 40px;
+            border: 5px solid #0e6522;
+            
+            font-size: 50px ;
+            color: hwb(0 5% 94% / 0.872)
+
+
+        }
+        /*
+        #iceCreamForm select, #iceCreamForm input[type="CHECKBOX"] {
+           
+            padding: 10px;
+            margin-top: 5px;
+            border: 5px solid hwb(305 5% 28%);
+            border-radius: 5px;
+        }*/
+        .summary {
+            margin-top: 20px;
+            padding: 10px;
+            border: 30PX solid #b6500c;
+            background-color: #600bfe;
+        }
+        h1 {
+            color: #f0140c !important; 
+            background-color: rgb(0, 255, 94);
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 0,5em
+            ;      
+        }
+        /*.highlight {
+            background-color: #b71010;
+            padding: 5px;
+            border-radius: 3px;
+        }*/
+       
+
+
+
+    /*body {
+            font-family: Arial, sans-serif;
+            background-color: #90c5e8;
+            color: #333333;
+            margin: 0px;
+        }*/
+
+   
+        h2 {
+            color: #8019b4;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h3 {
+            color: #b41919;
+            text-align:denter ;
+            margin-bottom: 0px;
+            height: 5px;
+            width:250px;
+            color:hsla(0, 86%, 46%, 0.576);
+            background-color:#110101;
+          
+       }
+
+/*   habia item */
+        /*.item{
+            color: #1cff14;
+            padding: 5em;
+            border: 1em
+           
+        }
+
+        /*
+        form {
+            max-width: 600px;
+            margin:  auto   ;
+            padding: 20px;
+            border: 30px solid #000000;
+            background-color: #8d8ca8;
+        }*/
+        
+
+    label {
+            display: block;
+            margin-top: 10px;
+        }
+
+    /*    es el check bock de los gustos  el de abajo    */ 
+    select, input {
+            margin-bottom: 1px;
+            width: auto;
+        }
+    button {
+            padding: 10px 15px;
+            background-color: #12d4c4;
+            color: rgb(233, 239, 240);
+            border: none;
+            cursor: pointer;
+            margin-left: 0px;
+            border-radius: 20%;
+            width: 90px;
+
+        }
+
+
+    /* cambia de color el boton con el mouse */
+    button:hover {
+            background-color: #27096e;
+        }
+        .resultado {
+            margin-top: 15px;
+            padding: 10px;
+            border: 1px solid #e4a724;
+
+            background-color: #f9f9f9;
+        }
+        .resultado h3 {
+            margin: 0
+            ;
+        }       
+        .resultado p {
+            margin: 5px 0;
+        }
+        .resultado ul {
+            list-style-type: none;
+            padding: 0;
+        }   
+        .resultado li {
+            margin: 5px 0;
+        }
+        .resultado li span {
+            font-weight: bold;
+        } 
+
+        
+        .nav {
+            margin-top: 20px;
+            text-align: justify;
+            text-decoration: #5316bd;
+        }
+
+    footer {
+            margin-top: 10px;
+            text-align: center;
+            background-color: #fd8dcf;
+            padding: 10px;
+            color: #fff;
+        }
+ /**********************   position */
+
+      /* .recipiente1 {
+            position: relative;
+            display: inline-block;      
+           flex-wrap: wrap;    
+            
+           justify-content: space-between ;
+            align-items: center;
+       
+            margin-top: 0%;
+                
+            margin-bottom: 10px;
+           /* padding: 20px;
+            border: 20px solid #14a2e3;
+            background-color: #431aaa;
+            }
+            /* de redondo a ovalado 
+            }
+        
+/*  posicion */
+        /*   .foto {
+               display: flex; 
+               height:200px; 
+               width:100%;
+           }
+    
+
+
+        .static {
+            position: static;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+          color: #8dfe0b;
+            background-color: #d5e481;
+             display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+
+        .relative {
+            position: relative;
+            top: 120px;
+            left: 150px;
+           
+           
+           bottom: 60px;
+            right: 40px;          
+           height: 800%;
+            color: #fe580b;
+            background-color: #242605;
+
+          
+        }
+/* por defecto se ajusta al body , si le pongo a recipiente posicion: relative se ajusta de ahi*/
+      .absolute {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            position: absolute;
+           top: 10px;
+            right: 10px;
+            /*left: 0;*
+            left :50px;
+           /* bottom: 0;*/
+        
+            width: 10%;
+           /* height: 100%; */
+                   color: #fe580b;
+            background-color: #a9b12f;
+          
+
+          
+        }
+
+        .fixed {
+           position: fixed;
+            
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+           top: 30;
+            right: 40px;
+          /*  right: 0;*/
+           /*------- bottom: 5px;
+            right: 14px;  ---*/
+         /*   width: 100%;
+            height: 100%;*/
+           color: #fe580b;
+            background-color: #126fa4;
+        
+        }
+
+        .sticky {
+          position: sticky;
+            bottom: -500px;
+            /*90*/
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            left: 120;
+            right: 0;
+          /*  bottom: 0px;*/
+            width: 100%;
+            height: 50%;
+
+            background-color: #9c708c;
+            color: rgb(14, 10, 10)
+        }
+/*  -------------------------------------------------------------------------*/
+/* com z index cambio el orden de los elemntos
+     
+
+
+
+
+
+
+

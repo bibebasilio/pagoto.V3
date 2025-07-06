@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+
+/**{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "nunito",sans-serif;
+    font-size: 20px;
+    }*/
+    
+    .footer {
+     background-color: rgb(29, 0, 175);
+     display: flex;
+     align-items: center;   
+    flex-direction: row;
+    justify-content: center;
+    height:160px;
+    padding: 0x 20px;
+   /* font-weight: 15px;*/
+    
+    width: auto;
+    /* flex-direction: row;
+    flex-wrap: wrap;*/
+    
+    
+}
+
+.footer .logito{
+   /* min-height: 20px;*/
+   cursor: pointer;
+   order: 2;
+   margin-left: auto;
+   /*  height: 0px;
+   
+   }*/
+}
+
+.footer .logito img{
+    height:100px;
+    width: auto;
+    transition: all 0.3s;
+    border-radius: 50px;
+    margin-right:20px
+    
+}
+
+.footer .logito img:hover{
+    
+    transform: scale(1.1);
+    
+}
+
+/*-----------------NAV -*/
+.footer .nave-links{
+    order:2;
+    
+}
+.footer .nave-links{
+    list-style:none ;
+    
+}
+
+
+.footer .nave-links li {
+    display:inline-block;
+    padding: 2px;
+    background-color: rgb(29, 0, 175);
+    /*text-decoration: none;*/
+    border-color: rgb(255, 127, 214) ;
+    padding:1px;
+    
+}
+
+.footer .nave-links li:nth-child(1){
+    
+    padding: 0 px 0 0;
+
+    
+}
+/*    agranda el item */
+.footer .nave-links li:hover {
+    transform: scale(1,1);
+    
+    /* border-radius: 50px;*
+e    cursor: pointer;*/
+}   
+.footer .nav-links li a:hover {
+              
+    color:rgb(28, 217, 214);
+    background-color: rgb(243, 247, 10);
+    color: rgb(225, 18, 18);
+    transform: scale(1,1);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+   /* gap:20px;*/
+}
+
+@media(max-with:850px)  {
+
+    .footer  .nave-links li a {
+        font-size: 9px;
+    }    
+}  
+
+.footer .nave-links li a{
+    font-size: 15px;
+    color: rgb(17, 8, 8);
+    text-decoration: none;
+   /* background-color: blue;*/
+   display: flex;
+   flex-direction: row;
+   flex-wrap: grap;
+    /*color:rgb(44, 17, 180);*/
+    padding: 2px 15px;
+    /*   background: rgb(255, 255, 255);*/
+    border: 0px;
+    /*  border-radius: 50px;*/
+    
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    background-color: rgb(202, 204, 214);
+}
+.footer .nave-links li a:hover {
+    color: rgb(229, 16, 16);
+    background-color: rgb(182, 197, 16);
+   /* transform: scale(1.2);*/
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+.footer .butin{
+    color: rgb(29, 0, 175);
+    background-color: rgb(29, 0, 175);
+    height:80px;
+
+    order: 1;
+
+}
+    
+
+
+/*     boton contacro */
+.footer .butin button{
+     /*margin-left: 10020px;*/
+     font-weight: 70px;
+     color:rgb(19, 106, 61);
+     padding: 15px;
+     background: rgb(177, 177, 193);
+     border:30px;
+     border-radius: 50px;
+     cursor: pointer;
+     transition: all 0.3s ease 0s;
+     align-items: center;
+     margin: 15px;
+     
+}
+
+.footer .butin button:hover {
+    background-color: rgb(17, 180, 63);
+    color: white;
+    transform: scale(1.2);
+    border-radius: 50px;
+    cursor: pointer;
+   
+}
